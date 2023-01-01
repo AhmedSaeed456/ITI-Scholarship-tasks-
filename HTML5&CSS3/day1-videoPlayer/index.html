@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>task-day1</title>
+</head>
+<body >
+    <video id="video"  src="assets/frozen.mp4" ontimeupdate="updateTracker()" poster="assets/frozen.jpg" controls></video><br>
+    <input type="range" id="vid-control" min="0.5" max="2" step="0.1" value="1">
+    <label id="duration">0</label><span> / </span><span id="full">00</span><br>
+    <button id="play-button">Play</button><br>
+    <button id="stop-button">Stop</button><br>
+    <button id="mute-button">Mute</button><br>
+    <button id="max-button">Max</button><br>
+    <button id="begin"><<</button>
+    <button id="skip-button-backward"><</button>
+    <button id="skip-button-forward">></button>
+    <button id="end">>></button><br>
+    
+    
+  
+    <label>sound :</label>
+    <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1"><br>
+    <button id="speed-button">normal speed</button>
+    <input type="range" id="speed-control" min="0.5" max="2" step="0.1" value="1"><br>
+
+    
+    
+  
+    <script src="script.js" ></script>
+</body>
+</html>

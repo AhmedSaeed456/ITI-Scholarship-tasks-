@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+}
+canvas{
+    margin:100px;
+    padding:100px;
+    
+}
+math{
+    color:red;
+}
+.container{
+    padding:100px;
+}
